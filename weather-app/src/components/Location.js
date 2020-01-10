@@ -5,7 +5,7 @@ const Location = (props) => {
     //Destructuring. Cuando se quiere asignar el valor de una propiedad a una variable del mismo nombre
     //const city = props.city;
     const {city} = props;
-    return <div><h1>{city}</h1></div>;
+    return <div className="locationCont"><h1>{city}</h1></div>;
 };
 
 Location.propTypes = {
